@@ -2,6 +2,19 @@
 
 This is jQuery plugin which allow you to have a smooth page scrolling effect by animating it.
 
+## Table of contents
+
+* [Dependency](#dependency)
+* [Installation](#installation)
+  * [Install Using NPM](#install-using-npm)
+  * [Install Using Bower](#install-using-bower)
+  * [Install Using Git](#download-using-git)
+  * [Manual Download](#manual-download)
+* [Usage](#usage)
+  * [Using $(selector).animateScroll( options )](#using-selectoranimatescroll-options-)
+  * [Using $.scrollTo( $target, options )](#using-scrollto-target-options-)
+  * [Using $(selector).scrollHere( options )](#using-selectorscrollhere-options-)
+
 ## Dependency
 
 This plugin has the following dependency:
@@ -54,7 +67,7 @@ You may also add this `jquery-animate-scroll` package to your `bower.json` file 
 }
 ```
 
-### Download using Git
+### Download Using Git
 
 Another option to install this jQuery plugin is by using git command. Simply clone this repository by running the following command:
 
