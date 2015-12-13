@@ -2,7 +2,7 @@
   "name": "jquery-animate-scroll",
   "title": "jQuery Animate Scroll",
   "version": "0.0.1",
-  "description": "Risan Bagja personal blog NPM package file.",
+  "description": "jQuery plugin to make page scroll looks smooth by animating it.",
   "author": {
     "name": "Risan Bagja Pradana",
     "email": "risanbagja@gmail.com",
