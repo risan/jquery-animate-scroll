@@ -1,5 +1,9 @@
 # jQuery Animate Scroll
 
+[![Build Status](https://img.shields.io/travis/risan/jquery-animate-scroll.svg?style=flat-square)](https://travis-ci.org/risan/jquery-animate-scroll)
+[![Latest Version](https://img.shields.io/npm/v/jquery-animate-scroll.svg?style=flat-square)](https://www.npmjs.com/package/jquery-animate-scroll)
+[![License](https://img.shields.io/npm/l/jquery-animate-scroll.svg?style=flat-square)](https://www.npmjs.com/package/jquery-animate-scroll)
+
 This is jQuery plugin which allow you to have a smooth page scrolling effect by animating it.
 
 ## Table of contents
