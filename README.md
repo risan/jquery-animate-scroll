@@ -42,7 +42,7 @@ Or you may add `jquery-animate-scroll` to your `package.json` dependencies:
 ```json
 {
   "dependencies": {
-    "jquery-animate-scroll": "*"
+    "jquery-animate-scroll": "~1.0.0"
   }
 }
 ```
