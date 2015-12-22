@@ -42,7 +42,7 @@ gulp.task('js-min', function() {
 });
 
 gulp.task('test', function() {
-  return gulp.src('./test/index.html')
+  return gulp.src('./test/*.html')
     .pipe(qunit());
 });
 
