@@ -3,6 +3,7 @@ var gulp    = require('gulp'),
     jshint  = require('gulp-jshint'),
     uglify  = require('gulp-uglify'),
     gutil   = require('gulp-util'),
+    qunit   = require('gulp-qunit'),
     rename  = require('gulp-rename');
 
 gulp.build = function(src, dest, validate) {
@@ -13,7 +14,7 @@ gulp.build = function(src, dest, validate) {
     .pipe(jscs.reporter())
     .pipe(jscs.reporter('fail'))
     .pipe(gulp.dest(dest));
-}
+};
 
 /**
  * Build and minified.
@@ -38,6 +39,11 @@ gulp.task('js', function() {
 
 gulp.task('js-min', function() {
   return gulp.buildMinified('src/*.js', 'dist', true);
+});
+
+gulp.task('test', function() {
+  return gulp.src('./test/index.html')
+    .pipe(qunit());
 });
 
 gulp.task('default', ['js', 'js-min']);
